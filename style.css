@@ -322,7 +322,7 @@ body, html{
         width: 85vw;
         background-color: rgb(255, 255, 255);
         top: 0;
-        left: -75vw;
+        left: -85vw;
         flex-direction: column;
         transition: all 1s ease-out;
         z-index: 1000;
