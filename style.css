@@ -5,6 +5,7 @@
     list-style: none;
     color: black;
     text-decoration: none;
+    font-family: 'Josefin Sans';
 }
 body, html{
     scroll-behavior: smooth;
