@@ -331,8 +331,11 @@ body, html{
     .top .open, .close{
         position: absolute;
         right: 20px;
-        top: 5px;
+        top: 10px;
         cursor: pointer;
+    }
+    .open{
+        /* top: 20px; */
     }
     .top .open img{
         width: 25px;
@@ -419,7 +422,7 @@ body, html{
     .top .logo{
         position: absolute;
         left: 10vw;
-        font-family: 'Modak', Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Modak';
         font-weight: bold;
     }
     .top .navigation{
