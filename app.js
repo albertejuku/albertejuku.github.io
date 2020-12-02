@@ -35,6 +35,8 @@ if(window.innerWidth < 600){
         elem = n.children[i];
         elem.addEventListener('click', function(){
             nav.style.left = '-85vw'
+            open.style.display = 'block'
+            nav.style.boxShadow = ''
         })
     }
 }
