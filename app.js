@@ -29,9 +29,12 @@ close.addEventListener('click', function(){
     nav.style.boxShadow = ''
 })
 n = document.getElementsByClassName('links')[0];
-for(let i = 0; i < n.children.length; i++){
-    elem = n.children[i];
-    elem.addEventListener('click', function(){
-        alert(this.children[0].innerHTML)
-    })
+
+if(window.innerWidth < 600){
+    for(let i = 0; i < n.children.length; i++){
+        elem = n.children[i];
+        elem.addEventListener('click', function(){
+            alert(this.children[0].innerHTML)
+        })
+    }
 }
